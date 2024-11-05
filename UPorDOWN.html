@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UP or DOWN</title>
+
+	<!-- Bootstrap reboot (для сброса стилей) -->
+	<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+	<!-- Bootstrap сетка -->
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+	<!-- Шрифты с Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<!-- Стили сайта -->
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="JavaScript/UP or DOWN.js"></script>
+</head>
+
+<body>
+    <div class="rama2">
+        <hr>
+        <a href="index.html" class="Memory2">Main menu</a>
+     <h1>
+		<div class="geeks"></div>
+     </h1>
+	 <h2 class="TextUPorDown" id="Text">Hello, your number is <span><script>document.write(generateRandomNumber());</script></span> up or down</h2>
+	 <div class="restart">
+	 <button id='UP'>UP</button>
+	 <button id='DOWN'>DOWN</button>
+     </div>
+</body>
